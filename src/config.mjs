@@ -3,8 +3,8 @@ import defaultImage from './assets/images/default.png';
 const CONFIG = {
   name: 'AstroWind',
 
-  origin: 'https://astrowind.vercel.app',
-  basePathname: '/',
+  origin: 'https://k2taso.org',
+  basePathname: '/k2taso-website-astro',
   trailingSlash: false,
 
   title: 'AstroWind — Free template for create a website with Astro + Tailwind CSS',
