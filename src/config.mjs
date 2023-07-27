@@ -1,7 +1,7 @@
 import defaultImage from './assets/images/default.png';
 
 const CONFIG = {
-  name: 'AstroWind',
+  name: 'K2 TASO',
 
   origin: 'https://k2taso.org',
   basePathname: '/k2taso-website-astro',
