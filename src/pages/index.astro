@@ -5,6 +5,9 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Features from '~/components/widgets/Features.astro';
 
+import { getPermalink } from '~/utils/permalinks';
+
+
 const meta = {
   title: SITE.title,
   description: SITE.description,
@@ -15,7 +18,7 @@ const meta = {
 <Layout {meta}>
   <Hero
     image={{ src: import('~/assets/images/k2-taso-group-shot.jpg'), alt: 'K2 TASO group photo' }}
-    callToAction={{ text: 'Donate', href: 'https://github.com/onwidget/astrowind' }}
+    callToAction={{ text: 'Donate', href: getPermalink('/donate') }}
   >
     <Fragment slot="title">
       Improving lives in rural Malawi
