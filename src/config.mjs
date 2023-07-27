@@ -4,7 +4,7 @@ const CONFIG = {
   name: 'K2 TASO',
 
   origin: 'https://k2taso.org',
-  basePathname: '/k2taso-website-astro',
+  basePathname: '/',
   trailingSlash: false,
 
   title: 'AstroWind — Free template for create a website with Astro + Tailwind CSS',
