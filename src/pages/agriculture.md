@@ -13,3 +13,4 @@ The program can transform a family’s life, as the milk or eggs and meat add mu
 ## Dairy Cow Farming
 
 K2 has joined the Malawian government’s efforts in promoting dairy cow farming. Dairy cows are part of our pass-on program. We educate the farmers in the care and housing needs, and we provide animal husbandry services to breed more cows to pass on to other beneficiaries.
+![Man with cow](/images/site.jpg)
