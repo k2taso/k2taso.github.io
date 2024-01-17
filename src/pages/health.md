@@ -7,4 +7,9 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 As a limited resource country, Malawi loses part of the population from treatable diseases. As a development partner, K2 TASO conducts mobile clinic services where people receive treatment for various diseases.
 
+<figure>
+  <img src="/woman-with-bucket.jpg" alt="Woman with bucket">
+  <figcaption>Woman receiving a bucket of Chlorine from K2 TASO. This will provide safe drinking water for many months for her community.</figcaption>
+</figure>
+
 Once or twice a month K2 TASO performs a mobile clinic, traveling to rural villages who do not otherwise have access to heath care.  We bring a variety of medicines to ensure we can provide relief to as many people as possible.  Our mobile test lab lets us screen for malaria, sexually transmitted infections such as HIV, high blood sugar, and other diseases. If we see a case that needs a hospital, we arrange for transportation.
