@@ -6,6 +6,7 @@ import Hero from '~/components/widgets/Hero.astro';
 import Features from '~/components/widgets/Features.astro';
 
 import { getPermalink } from '~/utils/permalinks';
+import Content from '~/components/widgets/Content.astro';
 
 const meta = {
   title: SITE.title,
@@ -31,8 +32,8 @@ const meta = {
         </span>
       </span>
     </Fragment>
-    <!--
-  <Features
+
+    <!-- <Features
     highlight="Programs"
     title="What we do"
     items={[
@@ -67,4 +68,15 @@ const meta = {
     ]}
   /> -->
   </Hero>
+
+  <Content>
+    <Fragment slot="title">News</Fragment>
+    <Fragment slot="subtitle">
+        Famine Relief
+    </Fragment>
+    <Fragment slot="content">
+      <p>
+        In August we provided <a href="/2024-08-famine-relief" class="text-blue-500">famine relief</a> to the Kapyanga and Mphepo villages.
+
+      </p>
 </Layout>
