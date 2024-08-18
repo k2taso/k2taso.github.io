@@ -7,7 +7,6 @@ import Features from '~/components/widgets/Features.astro';
 
 import { getPermalink } from '~/utils/permalinks';
 
-
 const meta = {
   title: SITE.title,
   description: SITE.description,
@@ -20,20 +19,19 @@ const meta = {
     image={{ src: import('~/assets/images/peter-patient-blood-pressure.jpg'), alt: 'K2 TASO group photo' }}
     callToAction={{ text: 'Donate', href: getPermalink('/donate') }}
   >
-    <Fragment slot="title">
-      Improving lives in rural Malawi
-    </Fragment>
+    <Fragment slot="title">Improving lives in rural Malawi</Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
         <span class="font-semibold">
-          K2 TASO has existed as a charity since 2007 to offer livelihood security to rural Malawians with the ideal
-          that everyone deserves access to quality healthcare, good education, adequate nutrition, safe drinking water
-          and a livable income.  We value these basic human rights while contributing in the fight against climate change.
+          K2 TASO has been a charity since 2007, dedicated to ensuring livelihood security for rural Malawians. We
+          believe that everyone deserves access to quality healthcare, education, adequate nutrition, safe drinking
+          water, and a livable income. Our commitment to these basic human rights is matched by our active contribution
+          to the fight against climate change.
+        </span>
       </span>
     </Fragment>
-  </Hero>
-<!--
+    <!--
   <Features
     highlight="Programs"
     title="What we do"
@@ -68,4 +66,5 @@ const meta = {
       ],
     ]}
   /> -->
+  </Hero>
 </Layout>
